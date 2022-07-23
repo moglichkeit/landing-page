@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,900;1,200&family=Roboto&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    background-color: #5C1B20;
+    color: #E5E7EB;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.nav h1 {
+    margin: 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+/* one */
+
+.block-one {
+    background-color: #5E0109;
+    padding: 64px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.hero .left {
+    width: 500px;
+}
+
+.hero .left h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.hero .left p {
+    font-size: 16px;
+    color: #E5E7EB;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 8px 24px;
+    background-color: #A80210;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+/* block two*/
+
+.block-two {
+    text-align: center;
+    padding: 36px 0;
+    background-color: #F59FA6;
+}
+
+.block-two .content {
+    display: flex;
+    justify-content: center;
+    gap: 112px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.card p {
+    font-size: 16px;
+    color: #444;
+    margin: 0;
+}
+
+/* block three */
+
+.block-three {
+    background-color: #E5E7EB;
+    padding: 72px 0;
+}
+
+.block-three .container {
+    max-width: 720px;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    padding: 8px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 1000;
+    text-align: end;
+}
+
+/* block fourth */
+
+.block-fourth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 32px;
+    margin: 48px auto;
+    border-radius: 8px;
+    background-color: #5E0109;
+    color:#E5E7EB
+}
+
+.left h3, .left p{
+    margin: 0;
+    padding: 0;
+}
+
+.right button {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+/* footer */
+
+.footer {
+    background-color: #5C1B20;
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #E5E7EB;
+}
